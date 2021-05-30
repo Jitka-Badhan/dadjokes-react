@@ -16,7 +16,7 @@ const App = () => (
       {jokes.map((joke) => (
         <Joke
           key={joke.id}
-          userAvatar={joke.avatar}
+          userId={joke.id}
           userName={joke.name}
           text={joke.text}
           likes={joke.likes}
